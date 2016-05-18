@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="Setup ChatBot" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="python" />
+      <option name="PARAMETERS" value="setup.py install" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/Birch/chat-bot/ChatterBot-master" />
+    </exec>
+  </tool>
+</toolSet>
